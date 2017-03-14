@@ -1,0 +1,12 @@
+# library(readr)
+install.packages("AppliedPredictiveModeling")
+library(readxl)
+library(caTools)
+mushrooms <- read_excel("G:/Data/Kaggle/Poisonous Mushrooms/mushrooms.xlsx")
+View(mushrooms)
+n <- nrow(mushrooms)
+nvar <- ncol(mushrooms)
+
+summary(mushrooms)
+
+new <- sample.split(mushrooms, SplitRatio=.75)
