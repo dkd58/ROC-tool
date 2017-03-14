@@ -6,7 +6,7 @@ mushrooms <- read_excel("G:/Data/Kaggle/Poisonous Mushrooms/mushrooms.xlsx")
 View(mushrooms)
 n <- nrow(mushrooms)
 nvar <- ncol(mushrooms)
-
-summary(mushrooms)
+# Give overview of contents
+summary(mushrooms) # this is the summary function from the ..package!
 
 new <- sample.split(mushrooms, SplitRatio=.75)
