@@ -1,5 +1,5 @@
 # ROC-tool
-R/Shiny tool for showing the effect (and quality) of classification models  
+R/Shiny tool for showing the effect (and quality) of **classification** models  
 
 We start with a very simple setup, training a decision tree on the poisonous mushroom data from Kaggle/UCI ML site.
 The results in terms of a ROC curve are displayed.
